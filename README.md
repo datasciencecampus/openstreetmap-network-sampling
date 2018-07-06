@@ -2,7 +2,7 @@
 
 > Generate equidistant points along urban area road network
 
-This repo. contains a code + a set of scripts for extracting equidistant points
+This repo. contains code + a set of scripts for extracting equidistant points
 for cities/urban areas in a national road network. Specifically, for each road
 within a city, a set of points are generated at equal distances along with the
 associated heading/bearing for each point. The points/bearings are then output

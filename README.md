@@ -35,7 +35,21 @@ respect to traveling in the direction of a rising/setting sun.
 * [geojsplit](https://www.npmjs.com/package/geojsplit)
 * json\_pp
 
-`geojsplit` installation:
+### osmium
+
+```
+mkdir osmium ;cd osmium
+git clone https://github.com/mapbox/protozero
+git clone https://github.com/osmcode/libosmium
+git clone https://github.com/osmcode/osmium-tool
+cd osmium-tool
+mkdir build ;cd build
+cmake ..
+make
+sudo make install
+```
+
+### geojsplit
 
 ```
 sudo npm -g install geojsplit

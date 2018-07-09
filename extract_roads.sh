@@ -14,13 +14,13 @@ cd $JSON_CITIES
 cd -
 
 # 1) download data
-if [ ! -f $OSM_DATA.bz2 ] ;then 
+if [ ! -f $OSM_DATA.bz2 ] && [ ! -f $OSM_DATA ] ;then 
   echo "downloading."
   wget http://download.geofabrik.de/europe/$OSM_DATA.bz2
 fi
 
 if [ ! -f $OSM_DATA ] ;then
-  echo "extracting."
+  echo "unziping.."
   bunzip2 $OSM_DATA.bz2
 fi
 

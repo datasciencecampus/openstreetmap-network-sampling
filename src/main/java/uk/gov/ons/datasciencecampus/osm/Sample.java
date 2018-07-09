@@ -180,14 +180,8 @@ public class Sample {
     }
     System.out.println("area filtering took " + (System.currentTimeMillis() - t) + "ms.");
 
-
     // write out the interpolated roads
     final Writer writer = new SampleWriter();
     writer.writeCsv(interpolatedRoads, dst);
-
-    // debug.
-    String s = GeoJsonUtil.toGeoJsonLines(interpolatedRoads);
-    Util.dumpString(s, "/tmp/filtered_points.geojson");
-
   }
 }

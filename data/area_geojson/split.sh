@@ -14,10 +14,6 @@ function sanity {
     echo "downloading ons major-towns-and-cities geojson data..."
     curl -s https://opendata.arcgis.com/datasets/58b0dfa605d5459b80bf08082999b27c_0.geojson > $IN
   fi
-  if [ -d $OUT ] ;then
-    echo "geojson data already split."
-    exit 0
-  fi
 }
 
 function split {

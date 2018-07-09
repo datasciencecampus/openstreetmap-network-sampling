@@ -49,11 +49,11 @@ make
 sudo make install
 ```
 
-### geojsplit
+### geojsplit + osmtogeojson
 
 ```
 sudo npm -g install geojsplit
-sudo ln -s /usr/local/node-v6.11.1-linux-x64/lib/node_modules/geojsplit/bin/geojsplit /usr/local/bin/geojsplit
+sudo npm -g install osmtogeojson
 ```
 
 ## Building

@@ -22,6 +22,9 @@ function process_regions
     if [ ! -f "${csv_output}/${city_name}.csv" ] ;then
       echo "procesing ${city_name}..."
       ./run_network_sampler.sh $ipd "data/city_roads_geojson/${city_file}.geojson" "${areas}/${city_file}.geojson" "${csv_output}/${city_name}.csv"
+      if [ $? != 0 ] ;then
+         exit 1
+      fi
     fi
   done
 }

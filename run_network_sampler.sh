@@ -5,7 +5,7 @@
 JAR=target/osm-roads.jar
 if [ ! -e $JAR ]; then
   echo "first run make"
-  exit 0
+  exit 1 
 fi
 if [ $# == 4 ] ;then
   # osm road network sampler

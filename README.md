@@ -1,5 +1,8 @@
 # OpenStreetMap road network parser
 
+[![build](https://travis-ci.org/datasciencecampus/openstreetmap-network-sampling.svg?branch=master)](https://travis-ci.org/datasciencecampus/openstreetmap-network-sampling)
+[![codecov](https://codecov.io/gh/datasciencecampus/openstreetmap-network-sampling/branch/master/graph/badge.svg)](https://codecov.io/gh/datasciencecampus/openstreetmap-network-sampling)
+
 > Generate equidistant points along urban area road network
 
 This repo. contains code + a set of scripts for extracting equidistant points

@@ -1,7 +1,9 @@
 # OpenStreetMap road network parser
 
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![build](https://travis-ci.org/datasciencecampus/openstreetmap-network-sampling.svg?branch=master)](https://travis-ci.org/datasciencecampus/openstreetmap-network-sampling)
 [![codecov](https://codecov.io/gh/datasciencecampus/openstreetmap-network-sampling/branch/master/graph/badge.svg)](https://codecov.io/gh/datasciencecampus/openstreetmap-network-sampling)
+[![LICENSE.](https://img.shields.io/badge/license-OGL--3-blue.svg?style=flat)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 > Generate equidistant points along urban area road network
 
